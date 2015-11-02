@@ -10,3 +10,4 @@ d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerC
 d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\Release\ExplorerCalculator.csproj.GenerateResource.Cache
 d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\Release\ExplorerCalculator.exe
 d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\Release\ExplorerCalculator.pdb
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\Release\ExplorerCalculator.csprojResolveAssemblyReference.cache

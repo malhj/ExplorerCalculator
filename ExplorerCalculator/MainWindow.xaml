@@ -19,7 +19,6 @@
         <Label HorizontalContentAlignment="Center" Content="I am currently" HorizontalAlignment="Left" Margin="20,45,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24" Height="42" Width="160"/>
         <Label Content="from Sagittarius A*." HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="39,78,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24" Height="42" Width="430"/>
         <Label Content="Your optimal plotting range is" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="0,120,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="20" Height="38" Width="519"/>
-        <GridSplitter HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="5"/>
         <Separator HorizontalAlignment="Left" Height="53" Margin="0,92,0,0" VerticalAlignment="Top" Width="519" Grid.Row="1"/>
         <Canvas HorizontalAlignment="Left" Height="100" Margin="814,111,-395,0" Grid.Row="1" VerticalAlignment="Top" Width="100"/>
         <Label x:Name="PlotRangeLabel" Content="0.00 ly" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="0,145,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="36" Height="66" Width="519" Initialized="PlotRangeLabelInit"/>
