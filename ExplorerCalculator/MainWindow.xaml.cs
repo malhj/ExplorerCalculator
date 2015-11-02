@@ -15,6 +15,9 @@ using System.Windows.Shapes;
 using System.IO;
 using System.Reflection;
 using System.Drawing;
+using System.Runtime.InteropServices;
+using System.ComponentModel;
+using System.Windows.Interop;
 
 namespace ExplorerCalculator
 {
@@ -32,13 +35,15 @@ namespace ExplorerCalculator
         {
             InitializeComponent();
             CalculatePlotRange();
+            this.Icon = Properties.Resources.explorer_AXa_icon.ToImageSource();
 
         }
 
 
         private void ImageInit(object sender, EventArgs e)
         {
-            CentralImg.Source = this.Icon;
+            Bitmap bitmap = Properties.Resources.explorer;
+            CentralImg.Source = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(bitmap.GetHbitmap(), IntPtr.Zero, Int32Rect.Empty, BitmapSizeOptions.FromEmptyOptions()); // Image is an image source
         }
         
 
@@ -153,5 +158,31 @@ namespace ExplorerCalculator
 
        
 
+    }
+
+    internal static class IconUtilities
+    {
+        /* Credit to Stackoverflow - Kenan E. K */
+        [DllImport("gdi32.dll", SetLastError = true)]
+        private static extern bool DeleteObject(IntPtr hObject);
+
+        public static ImageSource ToImageSource(this Icon icon)
+        {
+            Bitmap bitmap = icon.ToBitmap();
+            IntPtr hBitmap = bitmap.GetHbitmap();
+
+            ImageSource wpfBitmap = Imaging.CreateBitmapSourceFromHBitmap(
+                hBitmap,
+                IntPtr.Zero,
+                Int32Rect.Empty,
+                BitmapSizeOptions.FromEmptyOptions());
+
+            if (!DeleteObject(hBitmap))
+            {
+                throw new Win32Exception();
+            }
+
+            return wpfBitmap;
+        }
     }
 }

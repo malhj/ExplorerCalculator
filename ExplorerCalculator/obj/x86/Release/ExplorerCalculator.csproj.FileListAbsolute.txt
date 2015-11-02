@@ -1,0 +1,13 @@
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\bin\x86\Release\ExplorerCalculator.exe.config
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\bin\x86\Release\ExplorerCalculator.exe
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\bin\x86\Release\ExplorerCalculator.pdb
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\ExplorerCalculator.csprojResolveAssemblyReference.cache
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\MainWindow.baml
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\MainWindow.g.cs
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\App.g.cs
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\ExplorerCalculator_MarkupCompile.cache
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\ExplorerCalculator.g.resources
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\ExplorerCalculator.Properties.Resources.resources
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\ExplorerCalculator.csproj.GenerateResource.Cache
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\ExplorerCalculator.exe
+d:\users\jay0\documents\visual studio 2013\Projects\ExplorerCalculator\ExplorerCalculator\obj\x86\Release\ExplorerCalculator.pdb
