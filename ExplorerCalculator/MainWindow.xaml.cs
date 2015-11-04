@@ -1,23 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.IO;
-using System.Reflection;
+﻿
+using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Runtime.InteropServices;
-using System.ComponentModel;
+using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Interop;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+
 
 namespace ExplorerCalculator
 {
@@ -134,17 +125,12 @@ namespace ExplorerCalculator
             string NewText = PlotRange.ToString() + " ly"; // Set label content
 
 
-            if (PlotRangeLabel != null)
+            if (PlotRangeLabel != null) // It bitches if I don't have this
             {
                 PlotRangeLabel.Content = NewText;
             }
 
             
-        }
-
-        private void PlotRangeLabelInit(object sender, EventArgs e)
-        {
-            //CalculatePlotRange(); // As this function only refers to a single element - the plotrange label, this is the event is is executed on.
         }
 
         private void Save(object sender, EventArgs e)
